@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Blacksword';
+  src: url('Blacksword.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Cardo';
+  src: url('cardo-regular.woff') format('woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Cardo';
+  src: url('cardo-bold.woff') format('woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Cardo';
+  src: url('cardo-italic.woff') format('woff');
+  font-style: italic;
+}
+
+body {
+  font-family: 'Cardo', serif;
+  font-size: 1.4em;
+  line-height: 50px;
+  text-indent: 25px;
+  width: 50%;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fdfaf4;
+  color: #222;
+}
+
+header img {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Blacksword', cursive;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2.5em;
+  word-spacing: 25px;
+  margin-top: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  word-spacing: 10px;
+  margin-top: 1.2em;
+}
+
+blockquote {
+  font-style: italic;
+  text-align: center;
+  margin: 2em 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 3em;
+}
