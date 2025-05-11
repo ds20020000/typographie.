@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Typographie</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typographie sur le Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @font-face {
+            font-family: 'Blacksword';
+            src: url('fonts/Blacksword.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Cardo';
+            src: url('fonts/Cardo.ttf') format('truetype');
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="bunting.png" alt="fanions décoratifs">
-  </header>
-
-  <main>
-    <h1>Typographie</h1>
-
-    <p>La typographie – souvent abrégé en <em>typo</em> – désigne les différents procédés de composition et d’impression utilisant des caractères et des formes en relief, ainsi que l’art et la manière d’utiliser les différents types de caractères dans un but esthétique et pratique.</p>
-
-    <h2>Empattement</h2>
-    <p>En typographie, les empattements sont les petites extensions qui forment la terminaison des caractères dans certaines polices d'écriture dites polices « sérif »...</p>
-
-    <h2>Tiret</h2>
-    <p>Le tiret est un signe de ponctuation. Il ne doit pas être confondu avec le trait d’union...</p>
-
-    <h3>Tiret cadratin</h3>
-    <p>Il est utilisé en typographie française pour introduire les répliques des dialogues...</p>
-
-    <h3>Tiret demi-cadratin</h3>
-    <p>Le tiret « demi-cadratin » ou « demi-tiret » est utilisé pour lister les énumérations...</p>
-
-    <h3>Tiret court</h3>
-    <p>Le tiret court correspond principalement au trait d’union, mais avec quelques subtilités</p>
-
-    <h2>Césures</h2>
-    <p>En typographie et en orthographe, la coupure de mot, parfois appelée aussi césure...</p>
-
-    <h2>Veuves & orphelines</h2>
-    <p>En typographie, une ligne veuve est la dernière ligne d'un paragraphe apparaissant isolée...</p>
-
-    <h2>Lettrines</h2>
-    <p>Une lettrine est une lettre initiale majuscule décorée placée en tête d'un texte...</p>
-
-    <h2>Le Français et la typographie</h2>
-    <p>En France, la typographie est encadrée par des règles regroupées dans le Lexique...</p>
-
-    <h2>Capitale accentuée</h2>
-    <p>Le code rappelle que le français est une langue accentuée et que la « tolérance »...</p>
-
-    <blockquote>
-      “Il semble que la perfection soit atteinte, non quand il n'y a plus rien à ajouter mais quand il n'y a plus rien à retrancher.”<br>
-      <cite>Antoine de Saint-Exupéry</cite>
-    </blockquote>
-  </main>
-
-  <footer>
-    <p>Exercice de 3W Academy. Tous droits réservés.</p>
-  </footer>
+    <header>
+        <div class="header-banner">
+            <img src="bunting.jpg" alt="Bunting Banner" class="banner">
+            <h1>Typographie</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Typo</h2>
+            <p>La typographie – souvent abrégée en typo – désigne les différents procédés de composition et d’impression utilisant des caractères et des formes en relief, ainsi que l’art et la manière d’utiliser les différents types de caractères dans un but esthétique et pratique.</p>
+        </section>
+        <section>
+            <h2>Empattement</h2>
+            <p>Les empattements sont les petites extensions qui forment la terminaison des caractères dans certaines polices d'écriture dites polices « sérif ».</p>
+        </section>
+        <section>
+            <h2>Tirets</h2>
+            <h3>Tiret cadratin</h3>
+            <p>Utilisé en typographie française pour introduire les répliques des dialogues. Il est placé en début de ligne et suivi d’une espace.</p>
+            <h3>Tiret demi-cadratin</h3>
+            <p>Utilisé pour lister les énumérations et séparer les intervalles. Principalement employé en typographie anglaise et parfois française.</p>
+            <h3>Tiret court</h3>
+            <p>Correspond principalement au trait d’union, avec quelques subtilités.</p>
+        </section>
+        <section>
+            <h2>Césures</h2>
+            <p>La coupure de mot, parfois appelée césure, est l'opération consistant à couper par un tiret un mot qui n’entrerait pas dans la justification.</p>
+        </section>
+        <section>
+            <h2>Veuves & Orphelines</h2>
+            <p>Une ligne veuve est la dernière ligne d'un paragraphe apparaissant isolée en haut d'une page, et une orpheline est la première ligne d'un paragraphe apparaissant isolée en bas d'une page.</p>
+        </section>
+        <section>
+            <h2>Lettrines</h2>
+            <p>Une lettrine est une lettre initiale majuscule décorée placée en tête d'un texte, souvent plus grande et plus ornée.</p>
+        </section>
+        <section>
+            <h2>Le Français et la typographie</h2>
+            <p>En France, la typographie est encadrée par des règles regroupées dans le Lexique des règles typographiques en usage à l’Imprimerie nationale.</p>
+        </section>
+        <section>
+            <h2>Capitale accentuée</h2>
+            <p>Le français est une langue accentuée et les capitales doivent être accentuées lorsque la police dispose du caractère approprié.</p>
+        </section>
+        <blockquote>"Il semble que la perfection soit atteinte, non quand il n'y a plus rien à ajouter mais quand il n'y a plus rien à retrancher."<br>- Antoine de Saint-Exupéry</blockquote>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Typographie Web</p>
+    </footer>
 </body>
 </html>
